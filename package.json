@@ -1,0 +1,12 @@
+{
+    "private": true,
+    "packageManager": "^pnpm@8.0.0",
+    "scripts": {
+        "dev": "turbo run dev --parallel --continue",
+        "build": "turbo run build",
+        "serve": "turbo run serve"
+    },
+    "devDependencies": {
+        "turbo": "1.10.12"
+    }
+}
